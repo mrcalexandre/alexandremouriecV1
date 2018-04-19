@@ -232,9 +232,7 @@ a:focus {
 	line-height: 1.7em;
 }
 
-.work a:link {
-	text-decoration: underline;
-}
+
 
 .work h4 {
 	padding-top: 20px;
@@ -293,7 +291,7 @@ footer p {
 	overflow: hidden;
 	text-indent: 100%;
 	white-space: nowrap;
-	background: url(../img/arrow-up.png) no-repeat center 50%;
+	background: url(../images/arrow-up.png) no-repeat center 50%;
 	background-size: cover;
 	visibility: hidden;
 	opacity: 0;
@@ -342,123 +340,14 @@ footer p {
 	}
 }
 
-.publications a {
-	font-weight: bolder;
-	text-decoration: underline;
-	text-decoration-color: #0000FF;
-	text-decoration-style: solid;
-	font-size: 18px;
-}
-
 h4 {
 	font-size: 25px;
 }
 
-.btn-primary {
+/*.btn-primary {
 	background: #28bbf8;
 	border-color: #28bbf8;
-}
-
-
-.btn-primary,
-.btn-success,
-.btn-info,
-.btn-warning,
-.btn-danger {
-	border-color: transparent;
-}
-
-.btn-default:hover,
-.btn-default:active,
-.btn-default:focus,
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:focus,
-.btn-success:hover,
-.btn-success:active,
-.btn-success:focus,
-.btn-info:hover,
-.btn-info:active,
-.btn-info:focus,
-.btn-warning:hover,
-.btn-warning:active,
-.btn-warning:focus,
-.btn-danger:hover,
-.btn-danger:active,
-.btn-danger:focus {
-	background: #28bbf8;
-
-}
-
-/************ BUTTONS CSS - 
-MATERIAL TYPE ****************/
-
-.buttons {
-	text-align: center;
-	display: inline-block;
-	padding: 8px 30px;
-	border-radius: 2px;
-	letter-spacing: .5px;
-	border-radius: 2px;
-	text-decoration: none;
-	color: #fff;
-	overflow: hidden;
-	position: relative;
-	z-index: 0;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-	-webkit-transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease;
-	-o-transition: all 0.2s ease;
-	transition: all 0.2s ease;
-	border-color: #28bbf8;
-}
-
-
-/************ BACKGROUND COLOR FOR BUTTONS - 
-MATERIAL TYPE ****************/
-
-.red {
-	background-color: #F44336;
-}
-
-.pink {
-	background-color: #E91E63;
-}
-
-.blue {
-	background-color: #2196F3;
-}
-
-.cyan {
-	background-color: #00bcd4;
-}
-
-.teal {
-	background-color: #009688;
-}
-
-.yellow {
-	background-color: #FFEB3B;
-	color: #000;
-}
-
-.orange {
-	background-color: #FF9800;
-}
-
-.brown {
-	background-color: #795548;
-}
-
-.grey {
-	background-color: #9E9E9E;
-}
-
-.black {
-	background-color: #000000;
-}
-
-/*Box shadow*/
+}*/
 
 .thumbnail {
 	background-color: transparent;
@@ -488,7 +377,6 @@ MATERIAL TYPE ****************/
 
 .hovereffect:hover {
 	box-shadow: 0 14px 18px rgba(201, 201, 201, 1), 0 10px 10px rgba(201, 201, 201, 1);
-	/*background: #b2b2b2;*/
 }
 
 .logo {
@@ -512,7 +400,6 @@ section {
 h1 {
 	font-weight: bolder;
 }
-
 
 
 /*Social media logos*/
@@ -659,9 +546,8 @@ a.btn-social,
 }
 
 .website {
-	font-weight: bold;
-	text-decoration-line: underline;
-	text-decoration-color: #0000FF;
+	font-weight: bolder;
+
 }
 
 .company-logo {
@@ -675,7 +561,7 @@ a.btn-social,
 
 .argosvr {
 	margin-top: 30px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
 .stuffi {
@@ -711,14 +597,212 @@ p {
 
 
 .pelikant {
-	width: 90px;
+	width: 98px;
 	height: 90px;
 }
 
 .see-more {
-	margin-bottom: 30px;
+	position: absolute;
+	bottom: 0;
 }
 
 #work li {
 	list-style-type: square;
+}
+
+.voeu,
+.enib {
+	width: 90%;
+	margin-top: 15px;
+}
+
+
+*/ @font-face {
+	font-family: 'themify';
+	src: url("../fonts/themify/themify.eot?-fvbane");
+	src: url("../fonts/themify/themify.eot?#iefix-fvbane") format("embedded-opentype"), url("../fonts/themify/themify.woff?-fvbane") format("woff"), url("../fonts/themify/themify.ttf?-fvbane") format("truetype"), url("../fonts/themify/themify.svg?-fvbane#themify") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Lato', arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 300;
+	color: #2e2e2e;
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		font-size: 16px;
+		line-height: 1.5;
+	}
+}
+
+#photo {
+	border-radius: 100%;
+	width: 150px;
+	height: 150px;
+}
+
+::-webkit-selection {
+	color: #ffffff;
+	background: #28bbf8;
+}
+
+::-moz-selection {
+	color: #ffffff;
+	background: #28bbf8;
+}
+
+a {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	color: #28bbf8;
+	border-bottom: 2px solid transparent;
+}
+
+a:hover,
+a:focus,
+a:active {
+	outline: none;
+	text-decoration: none;
+	color: #2e2e2e;
+	border-bottom: 2px solid #28bbf8;
+}
+
+/* Heading */
+
+h2,
+h3,
+.h4 {
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 26px;
+	line-height: 38px;
+}
+
+h3 {
+	font-size: 20px;
+	line-height: 32px;
+}
+
+.h4 {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+p {
+	margin: 0 0 20px 0;
+}
+
+
+#fh5co-feature {
+	padding: 5em 0;
+}
+
+@media screen and (max-width: 768px) {
+	#fh5co-feature {
+		padding: 3em 0 2em 0;
+	}
+}
+
+.fh5co-spacer {
+	clear: both;
+	position: relative;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+	.fh5co-spacer-md {
+		height: 30px;
+	}
+}
+
+.fh5co-uppercase-heading-sm {
+	font-size: 14px;
+	line-height: 26px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #7b7b7b;
+}
+
+.btn {
+	border-bottom: none !important;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+	box-shadow: none;
+	outline: none !important;
+	border-color: transparent;
+}
+
+.btn-primary {
+	background: #28bbf8;
+}
+
+.btn-primary {
+	border-color: transparent;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+	background: #282e3c;
+	color: #ffffff;
+}
+
+.fh5co-feature-2 .fh5co-feature-item {
+	margin-bottom: 30px;
+}
+
+.fh5co-feature-2 .fh5co-feature-title {
+	letter-spacing: 2px;
+}
+
+.fh5co-feature-2 .fh5co-feature-icon {
+	text-align: center;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.fh5co-feature-2 .fh5co-feature-icon.fh5co-circle {
+	display: table;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto 2em auto;
+	border: 2px solid #eaeaea;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.btn-social {
+	text-decoration: none;
 }
