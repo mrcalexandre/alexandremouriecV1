@@ -448,18 +448,15 @@ a.btn-social,
 }
 
 .btn-social:hover,
-.btn-social:focus {
+.btn-social:focus,
+.btn-producthunt:hover,
+.btn-producthunt:focus {
 	color: #fff;
 	outline: none;
 	text-decoration: none;
 }
 
-.btn-producthunt:hover,
-.btn-producthunt:focus {
 
-
-	text-decoration: none;
-}
 
 .btn-social.btn-xs,
 .btn-producthunt.btn-xs {
@@ -602,8 +599,9 @@ p {
 }
 
 .see-more {
-	position: absolute;
-	bottom: 0;
+	position: fixed;
+	margin-bottom: 20px;
+	;
 }
 
 #work li {
@@ -671,8 +669,18 @@ a:focus,
 a:active {
 	outline: none;
 	text-decoration: none;
-	color: #2e2e2e;
+	color: #ffffff;
 	border-bottom: 2px solid #28bbf8;
+}
+
+.intro a:hover,
+.intro a:focus,
+.intro a:active {
+	color: black;
+}
+
+.btn-social {
+	text-decoration-line: none;
 }
 
 /* Heading */
@@ -714,27 +722,12 @@ p {
 	}
 }
 
-.fh5co-spacer {
-	clear: both;
-	position: relative;
-	border: none;
-	padding: 0;
-	margin: 0;
-}
 
 
 @media screen and (max-width: 768px) {
 	.fh5co-spacer-md {
 		height: 30px;
 	}
-}
-
-.fh5co-uppercase-heading-sm {
-	font-size: 14px;
-	line-height: 26px;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	color: #7b7b7b;
 }
 
 .btn {
@@ -755,7 +748,8 @@ p {
 
 .btn:hover,
 .btn:focus,
-.btn:active {
+.btn:active,
+img a {
 	box-shadow: none;
 	outline: none !important;
 	border-color: transparent;
@@ -772,8 +766,8 @@ p {
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:focus {
-	background: #282e3c;
-	color: #ffffff;
+	background: #28bbf8;
+	color: black;
 }
 
 .fh5co-feature-2 .fh5co-feature-item {
@@ -805,4 +799,16 @@ p {
 
 .btn-social {
 	text-decoration: none;
+}
+
+
+
+.publink a:hover {
+	color: white;
+
+}
+
+#publications a:hover {
+	color: #28bbf8;
+
 }
